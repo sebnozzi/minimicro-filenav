@@ -4,9 +4,9 @@ A simple file-navigator tool for the Mini Micro
 
 # Installation
 
-This tool can be used as a stand-alone, but it really shines when imported as a module on system startup. That way it is always "present" and can be invoked with some short alias, without interfering with the loaded program.
+This tool can be used as a stand-alone program, but it really shines when imported as a module on system startup. That way it is always "present" and can be invoked  without replacing a loaded program.
 
-In order to do so the file `filenav.ms` has to be put somewhere where it can be imported. Preferably under 
+In order to do so the file `filenav.ms` has to be put somewhere where it can be imported as a module. Preferably under 
 
 ```
 /usr/lib
@@ -17,6 +17,7 @@ Then, your `startup.ms` needs to include something like:
 ```
 import "filenav"
 
+// Create a function alias
 // Change `fn` to whatever suits you
 fn = function()
   filenav.Nav.run
@@ -36,7 +37,7 @@ The last line `_saveGlobals` is particularly important, otherwise this function 
 
 When invoking the file-navigator you will see a list of file-entries in the current working directory:
 
-![screenshot](screenshot.png)
+<img alt="screenshot" src="screenshot.png" width="50%" height="50%">
 
 Directories will be placed first, and then files. Both sorted alphabetically.
 
