@@ -43,3 +43,5 @@ Navigate the list with the arrow keys. Navigate into a directory be pressing ENT
 You can "preview" files by pressing SPACE on them (except miniscript files, see below). This uses the Mini Micro `view` utility under the hood. Common media types like images will be displayed, sounds will be played.
 
 One notable exception are miniscript files. Upon pressing SPACE on a miniscript file it will be **loaded** and the execution of the file-navigator immediately ended. After that you can choose to edit or run the loaded file.
+
+In order to "view" miniscript files, press the letter V instead.
