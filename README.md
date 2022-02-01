@@ -2,6 +2,8 @@
 
 A simple file-navigator tool for the Mini Micro
 
+![Animation showing usage](animation.gif)
+
 # Installation
 
 This tool can be used as a stand-alone program, but it really shines when imported as a module on system startup. That way it is always "present" and can be invoked  without replacing a loaded program.
@@ -37,7 +39,7 @@ The last line `_saveGlobals` is particularly important, otherwise this function 
 
 When invoking the file-navigator you will see a list of file-entries in the current working directory:
 
-<img alt="screenshot" src="screenshot.png" width="50%" height="50%">
+![screenshot](screenshot.png)
 
 Directories will be placed first, and then files. Both sorted alphabetically.
 
