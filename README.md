@@ -36,6 +36,8 @@ The last line `_saveGlobals` is particularly important, otherwise this function 
 
 When invoking the file-navigator you will see a list of file-entries in the current working directory:
 
+![screenshot](screenshot.png)
+
 Directories will be placed first, and then files. Both sorted alphabetically.
 
 Navigate the list with the arrow keys. Navigate into a directory be pressing ENTER; even the parent `..` directory.
