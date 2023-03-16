@@ -4,6 +4,14 @@ A simple file-navigator tool for the Mini Micro
 
 ![Animation showing usage](animation.gif)
 
+## Features:
+
+* Navigate directories
+* **Load MiniScript files**
+* Preview images
+* Preview sounds
+* Preview text files
+
 # Installation
 
 This tool can be used as a stand-alone program, but it really shines when imported as a module on system startup. That way it is always "present" and can be invoked  without replacing a loaded program.
