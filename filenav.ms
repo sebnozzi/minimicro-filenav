@@ -115,6 +115,7 @@ end function
 
 Nav.printScreen = function()
 	clear
+	text.delimiter = char(13)
 	text.row = 25
 	text.column = 0
 	
